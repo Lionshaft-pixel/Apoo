@@ -76,7 +76,6 @@ const skillsSection = {
   display: true // Set false to hide this section
 };
 
-
 // Education Section
 
 const educationInfo = {
@@ -88,10 +87,7 @@ const educationInfo = {
       subHeader: "12th Grade Student | CBSE Board",
       duration: "2017 - Present",
       desc: "Preparing For NEET",
-      descBullets: [
-        "Working Hard.",
-        "Learning faster with Internet"
-      ]
+      descBullets: ["Working Hard.", "Learning faster with Internet"]
     }
   ]
 };
@@ -128,10 +124,7 @@ const workExperiences = {
       companylogo: require("./assets/images/instagram.jpeg"), // you can use any icon like a code symbol or your logo
       date: "2019 – Present",
       desc: "Lmao dead",
-      descBullets: [
-        "Created my own cake",
-        "Owns Iphone 16 Pro Max"
-      ]
+      descBullets: ["Created my own cake", "Owns Iphone 16 Pro Max"]
     },
     {
       role: "Unemployed",
@@ -142,7 +135,6 @@ const workExperiences = {
     }
   ]
 };
-
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -161,7 +153,8 @@ const bigProjects = {
     {
       image: require("./assets/images/portfolio.png"), // use your portfolio screenshot
       projectName: "My Portfolio Website",
-      projectDesc: "My personal website built with HTML, CSS, and passion. Hosted with GitHub Pages.",
+      projectDesc:
+        "My personal website built with HTML, CSS, and passion. Hosted with GitHub Pages.",
       footerLink: [
         {
           name: "Visit Website",
